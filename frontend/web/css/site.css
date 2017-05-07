@@ -1,0 +1,568 @@
+html,
+body {
+    height: 100%;
+}
+#brushes > button.btn.btn-info{
+    color: black;
+    background-color: #cf6969;
+    margin-bottom: 5px;
+}
+
+#brushes > button.btn.btn-info:hover{
+    background-color: white;
+}
+
+#brushes{
+   margin-top: 5px;
+   width: 20px;
+   margin-left: 15px;
+   float: left;
+}
+
+#myDIV{
+    float:left;
+    min-width: 650px;
+}
+
+#drawing-mode-options{
+   
+}
+
+.white{
+    color: white !important;
+}
+
+#colors{
+    
+    float:left; 
+    width: 140px;
+    border: none !important;
+}
+
+.color{
+    width: 60px; 
+    height: 34px; 
+    border-radius: 10px;
+    margin-bottom: 2px;
+    margin-right: 4px;
+    float: left;
+    
+}
+.color:hover{
+     cursor: pointer;
+     box-shadow:2px 2px 4px 0 white;
+     border-right: solid;
+     border-left: solid;
+     border-color: black;
+}
+
+.redo-option{
+    display: block;
+}
+body
+{
+background-color: #cc99ff;
+color: #000000;
+font-family: 'Lato', sans-serif;
+font-size: 15px;
+margin: 0 !important;
+}
+
+.wrapper
+{
+width: 100%
+}
+
+.header
+{
+width: 100%;
+padding: 10px 0;
+}
+
+.logo
+{
+	width: 100%;
+	font-size: 40px;
+	margin-left: auto;
+	margin-right: auto;
+        text-align: center;
+}
+
+
+
+.nav
+{
+width: 100%;
+padding: 10px 0;
+background-color: #9900ff;
+color: #E8E8E8;
+text-align: center;
+border-top: 1px solid #751b1b;
+border-bottom: 1px solid #751b1b;
+}
+
+.nivoSlider{
+    width: 100%;
+    height: 100%;
+}
+
+.nivoSlider > img{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+}
+
+
+#map_canvas{
+  float: left;
+}
+#map_canvas{
+ width: 80%;
+ height: 100%;
+}
+.contact-info{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+}
+#send-email-btn{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #8800cc;
+    border-radius: 10px;
+    letter-spacing: 1.5px;
+}
+.preschooler-form{
+    color: black;
+}
+#article_content{
+    color: black;
+}
+.modal-content{
+    background-color: #eeccff;
+}
+
+#modalButton{
+    background-color: #0074c7;
+    width: 100%;
+    height: 80px;
+    color: white;
+    border-radius: 15px;
+    border-width: 2px 4px 2px 4px;
+    border-color: #292929;
+}
+#modalButton:hover{
+    background-color: #6AB4FF;
+    font-weight: bold;
+}
+.modal-header{
+    color: black;
+}
+.datepicker{
+    color: black;
+}
+#send-email-btn:hover{
+    background-color: #600080;
+    font-weight: bold;
+}
+
+.contact-data > span{
+    font-weight: bold;
+    color: #c34f4f;
+    font-size: 18px;
+}
+.theme-default .nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+    width: 800px;
+    height: 600px !important;
+}
+.contact-form{
+    margin-bottom: 70px;
+}
+.navbar-nav navbar-right nav{
+    font-size: 12px;
+}
+.contact{
+    margin-top: 25px;
+}
+.wrap-right{
+    text-align: center;
+    font-size: 30px;
+}
+#main_header{
+    text-align: justify;
+}
+.contact-data{
+    width: 20%;
+    float:left;
+    height: 100%;
+    background-color: #222000;
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.content
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+text-align: justify;
+padding-top: 10px;
+}
+
+.images-list{
+    float: left;
+    margin: 5px 5px 5px 5px;
+    max-width: 150px;
+    
+}
+
+.images-list:hover{
+    background-color: #cf6969;
+    border-radius: 15px;
+}
+
+.images-title{
+    text-align: center;
+}
+
+.infoq{
+    width: 500px;
+    height: 30px;
+    border: 2px;
+    background-color: #6AB4FF;
+    z-index: 9999;
+    float: left;
+    padding-left: 7px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 19px;
+    display: none;
+}
+#second-title{
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+    text-align: center;
+}
+#gallery-title{
+    font-size: 18px;
+    margin: 3px 0 3px 0;
+    text-align: center;
+     color: white;
+    text-decoration: none;
+}
+.photo-in-gallery{
+  width: 1200px;
+  height: 550px;
+  max-height: 600px;
+  min-height: 600px;
+  margin-left: auto;
+    margin-right: auto
+}
+
+.photo{
+        width: 350px;
+        height: 280px;
+        float: left;
+        margin: 5px 5px 5px 5px;
+        border-radius: 10px;
+    }
+    .photo:hover{
+        font-size: 20px;
+        background-color: #cf6969;
+    }
+#gallery_title{
+    text-align: center;
+}
+.photo>a{
+    color: white;
+    text-decoration: none;
+}
+
+.images-title>a{
+text-decoration: none;
+font-size: 18px;
+color: #9900ff;
+}
+.photo>button{
+    width: 100%;
+    height: 30px;
+}
+.images-list:hover a { color: black; }
+
+
+.socials
+{
+width: 100%;
+text-align: center;
+background-color: #292929;
+}
+
+.socialdivs
+{
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.fb
+{
+float: left;
+width: 220px;
+height: 155px;
+font-size: 70px;
+padding:15px;
+}
+
+
+.fb:hover
+{
+background-color: #4668b3;
+cursor: pointer;
+}
+
+.yt
+{
+float: left;
+width: 220px;
+height: 155px;
+font-size: 70px;
+padding: 15px;
+}
+
+.yt:hover
+{
+background-color: #d80000;
+cursor: pointer;
+}
+
+.tw
+{
+float: left;
+width: 220px;
+height: 155px;
+font-size: 70px;
+padding: 15px;
+}
+
+
+.tw:hover
+{
+background-color: #6AB4FF;
+cursor: pointer;
+}
+
+
+.gplus
+{
+float: left;
+width: 220px;
+height: 155px;
+font-size: 70px;
+padding: 15px;
+}
+
+.gplus:hover
+{
+background-color: #880000;
+cursor: pointer;
+}
+
+.footer
+{
+text-align: center;
+color: white;
+background-color: #222222;
+padding: 30px;
+}
+
+.sticky
+{
+width: 100%;
+position: fixed;
+left: 0;
+top: 0;
+z-index: 100;
+}
+
+.nav>ol
+{
+padding: 0;
+margin: 0;
+list-style-type: none;
+font-size: 18px;
+height: 35px;
+line-height: 200%;
+display: inline-block;
+}
+
+.nav>ol a
+{
+color: #E8E8E8;
+text-decoration: none;
+display: block;
+}
+.nav>ol>li
+{
+float: left;
+width: 130px;
+height: 40px;
+border-right: 1px dashed #ff66ff;
+}
+
+.nav>ol > li:first-child
+{
+border-left: 1px dashed  #ff66ff;
+
+}
+
+.nav>ol > li:hover
+{
+background-color: #cc66ff;
+}
+
+.nav>ol >li:hover > a
+{
+color: #451717;
+}
+
+.nav>ol> li> ul 
+{
+list-style-type: none;
+padding: 0;
+margin: 0;
+height: 40px;
+display: none;
+}
+
+.nav>ol> li:hover>ul
+{
+display: block;
+}
+
+.nav>ol>li>ul>li
+{
+background-color: #cc66ff;
+position: relative;
+z-index: 100;
+border-top: 1px dashed #751b1b;
+}
+.nav>ol>li>ul>li:hover
+{
+background-color: #bf80ff;
+}
+
+.nav>ol>li>ul>li:hover> a
+{
+color: #451717;
+}
+
+.preschooler-index{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 25px 15px 20px;
+}
+
+.asd{
+   background-color: #ab3333;
+   margin: 0px 4px 0px 4px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
